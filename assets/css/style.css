@@ -14,28 +14,28 @@ a {
     text-decoration: none;
 }
 
-p {
+p, article {
     font-size: 16px;
 }
 
 /* parent header attributes */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* navigation bar */
-.links { 
+nav { 
     float: right;
     padding-top: 15px;
     margin-right: 20px;
@@ -43,11 +43,11 @@ p {
     font-size: 20px;
 }
 
-.links ul {
+nav ul {
     list-style-type: none;
 }
 
-.links ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -60,8 +60,6 @@ p {
     position: center;
 }
 
-
-
 /* left column boxes */
 .leftColumn {
     width: 75%;
@@ -70,7 +68,7 @@ p {
 }
 
     /* attributes for all left boxes */
-    .leftBoxes {
+    section {
         margin-bottom: 20px;
         padding: 50px;
         height: 300px;
@@ -78,11 +76,11 @@ p {
         background-color: #0072bb;
     }
 
-    .leftBoxes img {
+    section img {
         max-height: 200px;
     }
 
-    .leftBoxes h2 {
+    section h2 {
         margin-bottom: 20px;
         font-size: 36px;
     }
@@ -100,7 +98,7 @@ p {
 
 
 /* right column attributes */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -128,7 +126,7 @@ p {
     
 
 /* two line footer */
-.footer {
+footer {
     color: black;
     padding: 30px;
     clear: both;
@@ -136,6 +134,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }

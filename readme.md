@@ -1,3 +1,5 @@
+Summary: I cleaned up the code by consolidating css attributes and using more specific tags which would make it more ADA compliant. I did not make any changes to the website's appearance.
+
 Revisions made to code:
 
 1. removed css code for background image that appears at the top of the page; moved img code to html and added an *alt* tag to image with description
@@ -15,3 +17,7 @@ Revisions made to code:
 1. replaced *div* tags to more specific tags
     * for links at the top of page, changed *div* tags to *nav* tags
     * replaced *div* tags with corresponding sections i.e. *section*, *aside*, *article*
+
+![screencap](assets/images/screencap1.png)
+![screencap](assets/images/screencap2.png)
+![screencap](assets/images/screencap3.png)
